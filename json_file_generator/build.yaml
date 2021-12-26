@@ -1,0 +1,8 @@
+builders:
+  json_file:
+    import: "package:json_file_generator/builder.dart"
+    builder_factories: ["jsonFile"]
+    build_extensions: {".dart": [".json_file.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]

@@ -1,0 +1,7 @@
+name: json_file
+description: Load and save file using json
+version: 1.0.0+1
+homepage: https://github.com/gmvbr/json_file
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"

@@ -1,0 +1,4 @@
+class JsonFile {
+  
+  const JsonFile();
+}
