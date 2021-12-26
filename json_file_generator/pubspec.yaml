@@ -13,5 +13,7 @@ dependencies:
   build_config: ^1.0.0
   source_gen: any
   json_file:
-    path: ../json_file/
+    git:
+      url: git://github.com/gmvbr/json_file.git
+      path: json_file
   
